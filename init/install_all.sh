@@ -14,6 +14,9 @@ brew cask install pycharm;
 
 # node
 brew install node;
+brew install npm;
+npm install -g gulp;
+npm install -g bower;
 
 # Docker and virtualization
 brew cask install virtualbox;
@@ -23,6 +26,7 @@ brew install docker-compose;
 
 # My apps
 brew cask install atom;
+brew cask install cyberduck;
 brew cask install sourcetree;
 brew cask install google-chrome;
 brew cask install sequel-pro;
