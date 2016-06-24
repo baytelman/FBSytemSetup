@@ -10,19 +10,20 @@ brew install python;
 brew install pyenv;
 pyenv install 3.4.3;
 pip install --upgrade virtualenv;
-brew cask install pycharm
+brew cask install pycharm;
 
 # node
-brew install node
+brew install node;
 
 # Docker and virtualization
-brew cask install virtualbox
-brew cask install vagrant
-brew install docker-machine
+brew cask install virtualbox;
+brew cask install vagrant;
+brew install docker-machine;
+brew install docker-compose;
 
 # My apps
-brew cask install atom
-brew cask install sourcetree
-brew cask install google-chrome
-brew cask install sequel-pro
-brew cask install dropbox
+brew cask install atom;
+brew cask install sourcetree;
+brew cask install google-chrome;
+brew cask install sequel-pro;
+brew cask install dropbox;
