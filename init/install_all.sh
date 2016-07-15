@@ -13,13 +13,19 @@ brew cask install sourcetree;
 brew cask install google-chrome;
 brew cask install sequel-pro;
 brew cask install dropbox;
-brew cask install pycharm;
+brew cask install transmission;
+brew cask install spotify;
+
+# Java stuff
+brew cask install java
+brew cask install caskroom/versions/intellij-idea-ce;
 
 # Python stuff
 brew install python;
 brew install pyenv;
 pyenv install 3.4.3;
 pip install --upgrade virtualenv;
+brew cask install pycharm;
 
 # node
 brew install node;
