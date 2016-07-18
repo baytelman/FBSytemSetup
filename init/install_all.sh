@@ -6,6 +6,7 @@ brew update;
 brew install caskroom/cask/brew-cask 2> /dev/null
 
 # My apps
+brew cask install flux;
 brew cask install atom;
 brew cask install macdown;
 brew cask install cyberduck;
