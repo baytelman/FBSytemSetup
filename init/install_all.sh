@@ -16,6 +16,8 @@ brew cask install sequel-pro;
 brew cask install dropbox;
 brew cask install transmission;
 brew cask install spotify;
+brew cask install psequel;
+brew cask install valentina-studio;
 
 # Java stuff
 brew cask install java
