@@ -22,6 +22,7 @@ brew cask install valentina-studio;
 # Java stuff
 brew cask install java
 brew cask install caskroom/versions/intellij-idea-ce;
+brew install mvn
 
 # Python stuff
 brew install python;
