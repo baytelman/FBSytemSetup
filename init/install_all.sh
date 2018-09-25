@@ -6,19 +6,16 @@ brew update;
 brew install caskroom/cask/brew-cask 2> /dev/null
 
 # My apps
-brew cask install flux;
-brew cask install atom;
+brew cask install iterm2;
 brew cask install visual-studio-code;
 brew cask install macdown;
 brew cask install cyberduck;
 brew cask install sourcetree;
 brew cask install google-chrome;
-brew cask install sequel-pro;
 brew cask install dropbox;
 brew cask install transmission;
 brew cask install spotify;
-brew cask install psequel;
-brew cask install valentina-studio;
+brew cask install robo-3t;
 
 # Java stuff
 brew cask install java
