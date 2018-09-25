@@ -34,6 +34,7 @@ brew cask install pycharm;
 # node
 brew install node;
 brew install npm;
+npm install -g yarn;
 npm install -g nvm;
 npm install -g gulp;
 npm install -g bower;
