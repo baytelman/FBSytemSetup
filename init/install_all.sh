@@ -35,11 +35,7 @@ brew cask install pycharm;
 # node
 brew install node;
 brew install npm;
+npm install -g nvm;
 npm install -g gulp;
 npm install -g bower;
 
-# Docker and virtualization
-brew cask install virtualbox;
-brew cask install vagrant;
-brew install docker-machine;
-brew install docker-compose;
