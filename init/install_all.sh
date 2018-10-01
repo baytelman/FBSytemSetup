@@ -35,7 +35,7 @@ brew cask install pycharm;
 brew install node;
 brew install npm;
 npm install -g yarn;
-npm install -g nvm;
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash;
 npm install -g gulp;
 npm install -g bower;
 
