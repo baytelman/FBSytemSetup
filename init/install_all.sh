@@ -6,7 +6,6 @@ brew update;
 brew install caskroom/cask/brew-cask 2> /dev/null
 
 # My apps
-brew cask install iterm2;
 brew cask install visual-studio-code;
 brew cask install macdown;
 brew cask install cyberduck;
@@ -35,7 +34,4 @@ brew cask install pycharm;
 brew install node;
 brew install npm;
 npm install -g yarn;
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash;
-npm install -g gulp;
-npm install -g bower;
-
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
