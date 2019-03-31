@@ -17,6 +17,7 @@ brew cask install spotify;
 brew cask install robo-3t;
 brew cask install postman;
 brew cask install sketch;
+brew cask install slack;
 
 # Java stuff
 brew cask install java
