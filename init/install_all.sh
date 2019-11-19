@@ -10,6 +10,7 @@ brew cask install sourcetree;
 brew cask install visual-studio-code;
 brew cask install macdown;
 brew cask install postman;
+brew cask install insomnia;
 brew cask install sketch;
 
 # Security
