@@ -5,6 +5,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update;
 brew install caskroom/cask/brew-cask 2> /dev/null
 
+# Security
+brew cask install gpg-suite;
+
 # My apps
 brew cask install visual-studio-code;
 brew cask install macdown;
