@@ -5,23 +5,32 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update;
 brew install caskroom/cask/brew-cask 2> /dev/null
 
+# My apps – Development & Work
+brew cask install sourcetree;
+brew cask install visual-studio-code;
+brew cask install macdown;
+brew cask install postman;
+brew cask install sketch;
+
 # Security
 brew cask install gpg-suite;
 
-# My apps
-brew cask install visual-studio-code;
-brew cask install macdown;
-brew cask install cyberduck;
-brew cask install sourcetree;
+# Browsers & File sharing
 brew cask install google-chrome;
 brew cask install dropbox;
+brew cask install cyberduck;
 brew cask install transmission;
-brew cask install spotify;
-brew cask install robo-3t;
-brew cask install postman;
-brew cask install sketch;
+
+# Communication
 brew cask install slack;
 brew cask install whatsapp;
+
+# Database clients
+brew cask install valentina-studio;
+brew cask install robo-3t;
+
+# Music
+brew cask install spotify;
 
 # Java stuff
 brew cask install java
