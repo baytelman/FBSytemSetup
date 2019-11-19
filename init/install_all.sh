@@ -18,6 +18,7 @@ brew cask install robo-3t;
 brew cask install postman;
 brew cask install sketch;
 brew cask install slack;
+brew cask install whatsapp;
 
 # Java stuff
 brew cask install java
