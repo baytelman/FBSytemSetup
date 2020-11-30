@@ -25,6 +25,7 @@ brew cask install transmission;
 # Communication
 brew cask install slack;
 brew cask install whatsapp;
+brew install --cask discord;
 
 # Database clients
 brew cask install valentina-studio;
