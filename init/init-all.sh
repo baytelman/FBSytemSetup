@@ -14,6 +14,7 @@ brew install --cask visual-studio-code;
 brew install --cask sourcetree;
 brew install --cask google-chrome;
 brew install --cask robo-3t;
+brew install --cask figma;
 
 # node
 brew install node@12;
@@ -34,3 +35,6 @@ echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.profile
 
 npm install -g yarn;
 
+
+# Fun
+brew install --cask spotify
