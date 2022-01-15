@@ -1,13 +1,9 @@
 #!/bin/bash
 
 # Brew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null;
-# Add to sh
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/fbaytelm/.zprofile
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
-    
-brew update;
-brew install caskroom/cask/brew-cask 2> /dev/null
 
 # System utilities
 ## Asimov – Prevent development caches to be included in backups
@@ -15,18 +11,22 @@ brew install asimov
 sudo brew services start asimov
 
 # My apps
-brew install --cask visual-studio-code;
-brew install --cask sourcetree;
-brew install --cask google-chrome;
-brew install --cask robo-3t;
-brew install --cask figma;
+brew install visual-studio-code;
+brew install sourcetree;
+brew install google-chrome;
+brew install figma;
+
+# Database clients
+brew install pgadmin4
+brew install dbeaver-community
+brew install robo-3t;
 
 # comm
-brew install --cask whatsapp
-brew install --cask slack
+brew install whatsapp
+brew install slack
 
 # Fun
-brew install --cask spotify
+brew install spotify
 
 # node
 brew install node@14;
