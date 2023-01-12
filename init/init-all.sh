@@ -9,12 +9,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Asimov – Prevent development caches to be included in backups
 brew install asimov
 sudo brew services start asimov
+brew install --cask monitorcontrol
 
 # My apps
 brew install visual-studio-code;
 brew install sourcetree;
 brew install google-chrome;
 brew install figma;
+brew install --cask dropbox;
+brew install docker
+brew install --cask docker;
 
 # Database clients
 brew install pgadmin4
