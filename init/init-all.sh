@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Disable charging chime –– Annoying if you have Apple Watch and your Mac is plugged to an external monitor
+defaults write com.apple.PowerChime ChimeOnNoHardware -bool true;killall PowerChime
+
 # Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
