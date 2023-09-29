@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Disable charging chime –– Annoying if you have Apple Watch and your Mac is plugged to an external monitor
-defaults write com.apple.PowerChime ChimeOnNoHardware -bool true;killall PowerChime
+defaults write com.apple.PowerChime ChimeOnNoHardware -bool true; killall PowerChime
 
 # Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -31,12 +31,13 @@ brew install robo-3t;
 # comm
 brew install whatsapp
 brew install slack
+brew install --cask discord;
 
 # Fun
 brew install spotify
 
 # node
-brew install node@14;
+brew install node@16;
 brew install npm;
 # Add to sh
 echo 'export PATH="/opt/homebrew/opt/node@14/bin:$PATH"' >> ~/.zshrc
