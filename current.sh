@@ -47,7 +47,7 @@ export CPPFLAGS="-I/opt/homebrew/opt/node@14/include"
 # nvm
 brew install nvm;
 source $(brew --prefix nvm)/nvm.sh;
-echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.profile
+echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zprofile
 
 npm install -g yarn;
 
