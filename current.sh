@@ -51,4 +51,14 @@ echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zprofile
 
 npm install -g yarn;
 
+# gif
+brew install ffmpeg;
+brew install gifsicle;
+
+echo 'gif() {
+    ffmpeg -i $1 $1.gif -filter_complex "[0:v] mpdecimate,fps=3,split [a][b];[a] palettegen=max_colors=48 [p];[b][p] paletteuse=dither=none " && gifsicle -O3 $1.gif -o $1.gif
+}' >> ~/.zprofile;
+
+source ~/.zprifile;
+
 
