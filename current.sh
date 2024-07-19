@@ -24,9 +24,9 @@ brew reinstall docker
 brew reinstall --cask docker;
 
 # Database clients
-brew install pgadmin4
-brew install dbeaver-community
-brew install robo-3t;
+brew reinstall pgadmin4
+brew reinstall dbeaver-community
+brew reinstall robo-3t;
 
 # comm
 brew reinstall whatsapp
@@ -49,7 +49,7 @@ brew reinstall nvm;
 source $(brew --prefix nvm)/nvm.sh;
 echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zprofile
 
-npm reinstall -g yarn;
+npm install -g yarn;
 
 # gif
 brew reinstall ffmpeg;
